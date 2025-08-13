@@ -1,6 +1,8 @@
 name: Testing Branch 
 on:
   workflow_dispatch:
+    branches:
+      - chore/test 
   
 jobs:
   echo:
